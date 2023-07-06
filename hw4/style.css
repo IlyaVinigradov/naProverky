@@ -44,21 +44,28 @@ a {
 }
 
 .main__content {
+    display: flex;
     padding-top: 164px;
-    padding-bottom: 314px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .title {
     color: #000;
     font-size: 60px;
     font-family: Gilroy-Bold;
+    padding-bottom: 17px;
 }
 
 .text {
     color: #888;
     font-size: 20px;
     font-family: Gilroy-Medium;
+    padding-bottom: 37px;
 }
+
+.main__content__button {}
 
 .button__1 {
     width: 140px;
@@ -81,4 +88,9 @@ a {
 
 .footer {
     padding-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
