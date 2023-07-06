@@ -17,6 +17,12 @@ a {
     font-family: Gilroy-Bold;
 }
 
+.color__text {
+    color: #F25822;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+}
+
 .header__link1 {
     color: #F25822;
     font-size: 14px;
