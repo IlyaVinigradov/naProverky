@@ -5,16 +5,23 @@
 
 a {
     text-decoration: none;
+    display: contents;
 }
 
 .header {
     padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header__logo {
+    display: flex;
     color: #000;
     font-size: 24px;
     font-family: Gilroy-Bold;
+    align-items: center;
 }
 
 .color__text {
@@ -24,6 +31,7 @@ a {
 }
 
 .header__link1 {
+
     color: #F25822;
     font-size: 14px;
     font-family: Gilroy-SemiBold;
