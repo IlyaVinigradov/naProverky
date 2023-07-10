@@ -13,6 +13,15 @@ body {
     line-height: normal;
 }
 
+p {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
 /* .block1 {} */
 
 .center {
@@ -65,12 +74,22 @@ body {
     background-color: #fff;
     border: none;
     display: flex;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.button__in__cell:hover {
+    color: #0644cf;
 }
 
 /* .block2 {} */
 
 .block2 {
-    padding: 92px 0;
+    padding: 92px 0 100px;
     display: flex;
     flex-direction: column;
     background-color: #fafafa;
@@ -96,14 +115,59 @@ body {
 .cells2 {
     max-width: 370px;
     width: 100%;
+    min-height: 549px;
+    height: 100%;
     border: none;
     background-color: #fff;
-    gap: 30px;
     display: flex;
 }
 
-.block2__cell1 {}
+.block2__cell1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.block2__cell2 {}
+.block2__cell2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.block2__cell3 {}
+.block2__cell3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2__cell__title {
+    padding-bottom: 22px;
+}
+
+.block2__cell__txt {
+    padding-bottom: 39px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+}
+
+.block2__cell__button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F25822;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.block2__cell__button:hover {
+    background-color: #fff;
+    color: #F25822;
+}
