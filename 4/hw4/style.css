@@ -3,35 +3,60 @@
     padding: 0;
 }
 
+.center {
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
-    display: contents;
+}
+
+body {
+    font-size: 24px;
+    font-family: Gilroy-Bold;
 }
 
 .header {
-    padding-top: 45px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin: 45px 0 164px 0;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: start;
 }
 
 .header__logo {
+    padding-left: 14px;
     display: flex;
     color: #000;
-    font-size: 24px;
     font-family: Gilroy-Bold;
     align-items: center;
 }
 
 .color__text {
     color: #F25822;
-    font-size: 24px;
-    font-family: Gilroy-Bold;
 }
 
 .header__link1 {
-
     color: #F25822;
     font-size: 14px;
     font-family: Gilroy-SemiBold;
@@ -43,29 +68,40 @@ a {
     font-family: Gilroy-SemiBold;
 }
 
+.header__link:active {
+    color: #F25822;
+}
+
+.header__link:hover {
+    color: blue;
+}
+
 .main__content {
     display: flex;
-    padding-top: 164px;
-    padding-bottom: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin: 0 auto 200px;
+    gap: 41px;
+}
+
+.main__text {
+    max-width: 522px;
+    width: 100%;
 }
 
 .title {
     color: #000;
     font-size: 60px;
-    font-family: Gilroy-Bold;
     padding-bottom: 17px;
 }
 
 .text {
-    color: #888;
-    font-size: 20px;
-    font-family: Gilroy-Medium;
     padding-bottom: 37px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 466px;
+    width: 100%;
 }
-
-.main__content__button {}
 
 .button__1 {
     width: 140px;
@@ -83,7 +119,17 @@ a {
     border: none;
     color: #AAA;
     font-size: 15px;
-    font-family: Gilroy-Bold;
+    padding-left: 72px;
+}
+
+.main__photo {
+    width: 545px;
+    height: 375px;
+}
+
+.main__photo img {
+    width: 100%;
+    height: 100%;
 }
 
 .footer {
@@ -93,4 +139,11 @@ a {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.logo-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
 }
