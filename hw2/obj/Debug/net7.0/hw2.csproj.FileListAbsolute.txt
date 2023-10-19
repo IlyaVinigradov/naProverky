@@ -1,0 +1,15 @@
+/Users/umpabook/src/C#/web1/2/hw2/bin/Debug/net7.0/hw2
+/Users/umpabook/src/C#/web1/2/hw2/bin/Debug/net7.0/hw2.deps.json
+/Users/umpabook/src/C#/web1/2/hw2/bin/Debug/net7.0/hw2.runtimeconfig.json
+/Users/umpabook/src/C#/web1/2/hw2/bin/Debug/net7.0/hw2.dll
+/Users/umpabook/src/C#/web1/2/hw2/bin/Debug/net7.0/hw2.pdb
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.csproj.AssemblyReference.cache
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.AssemblyInfoInputs.cache
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.AssemblyInfo.cs
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.csproj.CoreCompileInputs.cache
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.dll
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/refint/hw2.dll
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.pdb
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/hw2.genruntimeconfig.cache
+/Users/umpabook/src/C#/web1/2/hw2/obj/Debug/net7.0/ref/hw2.dll
